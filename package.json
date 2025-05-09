@@ -1,0 +1,17 @@
+{
+  "name": "1-type-stringtemplateengine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && tsc && cp ./src/index.html ./dist",
+    "start": "live-server ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "1.2.2",
+    "typescript": "5.8.3"
+  }
+}
